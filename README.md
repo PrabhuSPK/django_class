@@ -13,24 +13,56 @@ git add filename =>single
 git add . =>all
 # commit changes
 git commit -m "commit message"
+# git status
+git status
 # push changes
 git push origin prabhu
 
 
-
+# create virtual environment
 python -m venv .venv
+# installing packages
+D:\Prabhu\Class\django_class\venv\Lib\site-packages
+# windows activate
 .venv\bin\activate
+# ubuntu activate
 source .venv\bin\activate
-
+# deactivate
+deactivate
+# list of packages
+pip list
+# install specific package version
 pip install django==4.2
+# install latest package
+pip install django
+
+
+
+
+# vs code extensions
 html snippets
 django
+
+# start
+pip install django==5.2
 django-admin startproject projectname .
+# . => current directory
+
+# create django app
 django-admin startapp appname
 python manage.py startapp appname
+
 python manage.py runserver
 python manage.py runserver 8001
+python manage.py migrate
 python manage.py createsuperuser
+http://127.0.0.1:8000/admin/
+
+# create migration
+python manage.py makemigrations
+# migrate
+
+__init__.py =>current folder consider as python package
 
 div.container
 div.row
